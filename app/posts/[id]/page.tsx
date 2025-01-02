@@ -19,7 +19,7 @@ interface postType {
 }
 
 // Blog Detail Component
-const blogDetail = () => {
+const BlogDetail = () => {
     const posts:postType[] = [
         {
             id: 1,
@@ -190,4 +190,4 @@ const CommentSection = () => {
     );
 };
 
-export default blogDetail;
+export default BlogDetail;

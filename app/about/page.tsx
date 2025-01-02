@@ -17,7 +17,7 @@ const About = () => {
           Founded by a team of AI enthusiasts, researchers, and industry experts, we strive to bring you the most accurate, up-to-date, and thought-provoking content about AI and its related fields.
         </h1>
         <h1 className="text-2xl text-justify mt-7">
-          Whether you're a seasoned AI professional, a curious student, or simply someone interested in the future of technology, our blog offers valuable insights, practical guides, and engaging discussions to expand your understanding of AI.
+          Whether you &rsquo;re a seasoned AI professional, a curious student, or simply someone interested in the future of technology, our blog offers valuable insights, practical guides, and engaging discussions to expand your understanding of AI.
         </h1>
       </div>
 
