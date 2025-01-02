@@ -131,7 +131,7 @@ While Concurrent Rendering is still in the experimental phase, it shows the pote
 
     return (
         <div className="px-4 md:px-8 lg:px-20 my-10">
-            <div className="border-2 border-black rounded-lg p-6 md:p-8 lg:p-10 bg-white shadow-md">
+            <div className=" rounded-lg p-6 md:p-8 lg:p-10 bg-white shadow-md">
                 <div>
                     <h1 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4">{post.title}</h1>
                 </div>
