@@ -42,6 +42,25 @@ const BlogDetail = () => {
         {
             id: 2,
             author: "M Suleman",
+            title: "Agentic AI: A New Frontier in Artificial Intelligence",
+            description: `Agentic AI refers to artificial intelligence systems that are designed not merely to execute predefined tasks or respond to fixed inputs, but to exhibit true agency. In essence, Agentic AI systems can take initiative, make decisions, and act autonomously within specific constraints and goals. Unlike traditional AI, which generally performs tasks based on explicit instructions or responds to pre-programmed inputs, Agentic AI systems have the capacity to:
+
+            Understand their environment: These systems can process information about their surroundings and use this data to form an understanding of the situation at hand.
+
+            Identify goals or objectives: Instead of just executing commands, Agentic AI can identify objectives based on the context and environment.
+
+            Take action to achieve those goals: With the ability to make decisions, Agentic AI systems can take appropriate actions to achieve their goals, often with minimal human intervention.
+
+            In short, Agentic AI doesn't just follow orders—it takes initiative to solve problems or optimize outcomes on its own.` ,
+            image: "/ai.webp",
+            date: "2024-12-24",
+            time: "10 min read",
+            icondate: <MdOutlineDateRange />,
+            icontime: <IoMdTime />,
+        },
+        {
+            id: 3,
+            author: "M Suleman",
             title: "The Rise of AI Technologies: Transforming Our World",
             description:    `Artificial Intelligence (AI) refers to the simulation of human intelligence processes by machines, particularly computer systems. These processes include learning, reasoning, problem-solving, perception, and language understanding. AI is powered by algorithms and vast amounts of data, enabling machines to process information and make decisions without human intervention.
 
@@ -59,7 +78,7 @@ const BlogDetail = () => {
             icontime: <IoMdTime />,
         },
         {
-            id: 3,
+            id: 4,
             author: "M Suleman",
             title: "How to Install NextJS 15",
             description:
@@ -71,7 +90,7 @@ const BlogDetail = () => {
             icontime: <IoMdTime />,
         },
         {
-            id: 4,
+            id: 5,
             author: "M Suleman",
             title: "NextJS 15: The Exciting New Launch",
             description:    `Next.js 15 introduces several exciting features that will significantly improve your development experience, application performance, and scalability. Here’s a breakdown of the most notable changes:
