@@ -6,9 +6,21 @@ import { IoMdTime } from "react-icons/io";
 import { FaUser } from "react-icons/fa6";
 import { useParams } from "next/navigation";
 
+interface postType {
+    id:number,
+    author: string;
+    title: string;
+    description: string;
+    image: string;
+    date: string;
+    time: string;
+    icondate: React.ReactNode;
+    icontime: React.ReactNode;
+}
+
 // Blog Detail Component
 const blogDetail = () => {
-    const posts = [
+    const posts:postType[] = [
         {
             id: 1,
             author: "M Suleman",
