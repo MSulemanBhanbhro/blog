@@ -7,6 +7,7 @@ import Link from 'next/link';
 import { FaArrowRight } from "react-icons/fa";
 import Skeleton from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css'; // Import the styles
+import { useRouter } from 'next/navigation';
 
 // Define the type for the blog post
 interface Post {
@@ -21,6 +22,11 @@ interface Post {
 }
 
 const BlogCard = () => {
+  const router = useRouter();
+  const handleViewAllPosts = () => {
+    router.push('/posts');
+    
+  }
   const [isLoading, setIsLoading] = useState(true);
 
   // Specify the state type explicitly
@@ -140,7 +146,7 @@ const BlogCard = () => {
 
       {/* View All Posts Button */}
       <div className="flex justify-center items-center w-full mt-12">
-        <button className="bg-blue-600 text-white px-6 py-2 rounded-full text-lg sm:text-xl hover:bg-blue-700 transition-colors duration-300">
+        <button onClick={handleViewAllPosts} type="button" className="bg-blue-600 text-white px-6 py-2 rounded-full text-lg sm:text-xl hover:bg-blue-700 transition-colors duration-300">
           View All Posts
         </button>
       </div>
